@@ -9,7 +9,11 @@ attr_accessor :side_1, :side_2, :side_3
   end 
   
   def kind 
-    if @
+    if @side_1 == @side_2 && @side_2 == @side_3 
+      :equilateral 
+    else 
+      "working"
+    end 
    
   end
   
