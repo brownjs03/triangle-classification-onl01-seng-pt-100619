@@ -13,7 +13,8 @@ attr_accessor :side_1, :side_2, :side_3
       :equilateral 
     else 
       "nope"
-    end
+    end 
+  end
   
 end
 
